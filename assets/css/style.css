@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;700&family=Poppins:wght@400;500;700&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(255, 104, 104);
+  font-family: 'Poppins';
+  color: white;
+  text-transform: capitalize;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: yellow;
+}
+
+header h1 {
+  font-size: 3em;
+  font-family: 'Poppins', sans-serif;
+}
+
+form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+form label {
+  font-size: 2em;
+  margin-right: 20px;
+}
+
+form input {
+  height: 30px;
+  width: 300px;
+  background-color: rgba(255, 104, 104, 0.9);
+  border: 2px solid white;
+  padding: 10px;
+  font-size: 1.3em;
+  color: white;
+}
+
+form input:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+div {
+  margin-top: 5px;
+}
+
+.pokemon .descriptor .image-pokemon img {
+  margin-top: 40px;
+  width: 300px;
+  height: 300px;
+  border: 1px white solid;
+}
+
+
+.image-pokemon {
+  position: relative;
+}
+
+.image-pokemon p.id {
+  position: absolute;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+.types p {
+  display: inline;
+  margin-right: 10px;
+}
+
+.water {
+  margin-right: 5px;
+  background-color: aqua;
+  border-radius: 10px;
+  padding: 5px;
+  animation: blink .5s infinite;
+}
+
+.dark {
+  margin-right: 5px;
+  background-color: rgb(30, 41, 41);
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.normal {
+  margin-right: 5px;
+  background-color: rgb(172, 189, 189);
+  border-radius: 10px;
+  padding: 5px;
+}
+.fire {
+  margin-right: 5px;
+  background-color: rgb(255, 103, 56);
+  border-radius: 10px;
+  padding: 5px;
+}
+.grass {
+  margin-right: 5px;
+  background-color: rgb(67, 255, 61);
+  border-radius: 10px;
+  padding: 5px;
+}
+.flying {
+  margin-right: 5px;
+  background-color: rgb(157, 255, 255);
+  border-radius: 10px;
+  padding: 5px;
+}
+.fighting {
+  margin-right: 5px;
+  background-color: rgb(143, 78, 49);
+  border-radius: 10px;
+  padding: 5px;
+}
+.poison {
+  margin-right: 5px;
+  background-color: rgb(110, 69, 138);
+  border-radius: 10px;
+  padding: 5px;
+}
+.electric {
+  margin-right: 5px;
+  background-color: rgb(242, 255, 61);
+  border-radius: 10px;
+  color: black;
+  padding: 5px;
+}
+.ground {
+  margin-right: 5px;
+  background-color: rgb(190, 158, 12);
+  border-radius: 10px;
+  padding: 5px;
+}
+.rock {
+  margin-right: 5px;
+  background-color: rgb(128, 128, 128);
+  border-radius: 10px;
+  padding: 5px;
+}
+.psychic {
+  margin-right: 5px;
+  background-color: rgb(128, 30, 255);
+  border-radius: 10px;
+  padding: 5px;
+}
+.ice {
+  margin-right: 5px;
+  background-color: rgb(161, 255, 255);
+  border-radius: 10px;
+  padding: 5px;
+}
+.bug {
+  margin-right: 5px;
+  background-color: rgb(82, 255, 30);
+  border-radius: 10px;
+  padding: 5px;
+}
+.ghost {
+  margin-right: 5px;
+  background-color: rgb(99, 74, 42);
+  border-radius: 10px;
+  padding: 5px;
+}
+.steel {
+  margin-right: 5px;
+  background-color: rgb(145, 158, 158);
+  border-radius: 10px;
+  padding: 5px;
+}
+.dragon {
+  margin-right: 5px;
+  background-color: rgb(253, 255, 155);
+  border-radius: 10px;
+  padding: 5px;
+  color: black;
+}
+.fairy {
+  margin-right: 5px;
+  background-color: rgb(255, 77, 231);
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.descriptor {
+  display: flex;
+  font-size: 1.5em;
+  align-items: center;
+}
+
+.stats {
+  margin: 30px;
+}
+
+.abilities p {
+  margin: 0;
+  display: inline;
+}
+
+.error-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.error-text p {
+  font-size: 2em;
+}
+
+input::placeholder {
+  color: aliceblue;
+  opacity: .6;
+  font-size: 0.8em;
+}
